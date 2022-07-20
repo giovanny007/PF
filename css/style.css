@@ -1,0 +1,36 @@
+body {
+    background-image: url(img/pok.jpg);
+  }
+form {
+    background: rgb(43, 179, 150);
+    margin: 2rem;
+    padding: 2rem;
+    color: rgb(6, 7, 7);
+    font-size: 150%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  input, textarea, select, button {
+    width : 200px;
+    padding: 3;
+    margin: 3;
+    box-sizing: border-box;
+  }
+  button {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #4CAF50;
+    border-radius: 15px;
+  }
+  button:hover {background-color: #00dd07}
+  button:active {
+    background-color: #3e8e41;
+    transform: translateY(4px);
+  }
